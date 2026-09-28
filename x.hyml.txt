@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>University Book Store</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+/* HEADER */
+
+header{
+    height:220px;
+    background:#8ed8b5;
+    text-align:center;
+    padding-top:35px;
+    border-bottom:1px solid #aaa;
+}
+
+.university{
+    font-family:Georgia, serif;
+    font-size:30px;
+    font-weight:bold;
+    color:#222;
+}
+
+.bookstore{
+    margin-top:15px;
+    font-size:22px;
+    font-weight:bold;
+    color:#c45c3c;
+}
+
+.subtitle{
+    margin-top:12px;
+    font-size:15px;
+    color:#555;
+}
+
+/* NAVIGATION */
+
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+    margin:0 12px;
+    font-size:15px;
+    cursor:pointer;
+}
+
+nav a:hover{
+    color:#006b4f;
+    font-weight:bold;
+}
+
+/* MAIN LAYOUT */
+
+.container{
+    display:flex;
+    min-height:500px;
+}
+
+/* LEFT SIDEBAR */
+
+.sidebar{
+    width:250px;
+    background:#e5e5e5;
+    border-right:1px solid #aaa;
+    padding:25px 15px;
+}
+
+.sidebar h3{
+    color:#444;
+    margin-bottom:20px;
+}
+
+.sidebar button{
+    display:block;
+    width:100%;
+    text-align:left;
+    border:none;
+    background:transparent;
+    padding
